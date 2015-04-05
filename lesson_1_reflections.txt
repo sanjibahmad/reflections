@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was easy to compare the differences and thus spot the bug.
+    The + (new changes) was the first point of reference I looked for.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can quickly fall back to a previous state in history if the
+    program contains a bug.
+    You can look for old features or implementations for reference.
+    You can track evolution of code and make better design decisions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commit
+    Great for software development. Because you can clearly mark milestones
+    of logical progress. Auto-commit is not favorable. Shouldn't be
+    confused with auto-save.
+
+    Auto commit
+    Might be fine for documents. The real benefit here is auto-save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because in Git, the multiple files may be related to
+    a single logical change.
+    Whereas in Google Docs, the relationship between the files are not
+    possible to establish hence treated separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log: will show the commit log history with id
+    git log --stat: will show the commit log history with some stats like
+    	    	    number of lines added/deleted
+    git diff older_commit_id newer_commit_id: will show the file differences
+    	     		     		      between the two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because it's possible to very easily switch to a particular commit
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Use Git for software development, duh!
