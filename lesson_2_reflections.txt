@@ -17,6 +17,11 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+     Do a git diff to see changes in staging and working directory
+     Then git add to add the file that will be committed
+     Then git diff --stage to ensure only the file added will be committed
+     Now git commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
